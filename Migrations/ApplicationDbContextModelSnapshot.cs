@@ -65,303 +65,303 @@ namespace HeroesApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("1f9f1c5b-a8f6-4f3c-bda9-b526db09bf65"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 40m,
-                            Name = "Dr. Strange",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8723),
-                            StartingPower = 40m
-                        },
-                        new
-                        {
-                            Id = new Guid("fce6821a-9198-4e86-bf05-e718f5afd204"),
+                            Id = new Guid("e23f4c6b-728e-43e5-b210-4b7cbc5363c6"),
                             Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 38m,
-                            Name = "Deadpool",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8734),
-                            StartingPower = 38m
-                        },
-                        new
-                        {
-                            Id = new Guid("6a4a57ce-dcf2-4fc8-a910-eb7d63c674f7"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 47m,
-                            Name = "Thanos",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8744),
-                            StartingPower = 47m
-                        },
-                        new
-                        {
-                            Id = new Guid("519e5d81-f984-4dce-b3dd-f234ecf8f7a6"),
-                            Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 40m,
-                            Name = "Iron-Man",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8754),
-                            StartingPower = 40m
-                        },
-                        new
-                        {
-                            Id = new Guid("4fc3a829-b9c4-4c40-8ea4-6a4556731657"),
-                            Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 45m,
-                            Name = "Captain America",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8763),
-                            StartingPower = 45m
-                        },
-                        new
-                        {
-                            Id = new Guid("6bf34c4c-bc58-48cc-a88b-77c054a5f16d"),
-                            Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 30m,
-                            Name = "Thor",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8773),
-                            StartingPower = 30m
-                        },
-                        new
-                        {
-                            Id = new Guid("0515d54c-6203-401b-8688-215eabe8c97e"),
-                            Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
                             CurrentPower = 41m,
-                            Name = "Black Widow",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8819),
+                            Name = "Dr. Strange",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6621),
                             StartingPower = 41m
                         },
                         new
                         {
-                            Id = new Guid("162ec52a-7fa0-4479-9743-313fb078bfd5"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 35m,
-                            Name = "Scarlet Witch",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8828),
-                            StartingPower = 35m
-                        },
-                        new
-                        {
-                            Id = new Guid("e77f19b9-960d-4e8d-aac7-f4fc84c75d7c"),
+                            Id = new Guid("6035bd5b-bbf3-4264-b047-e1b8ec7d634d"),
                             Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 35m,
-                            Name = "Captain Marvel",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8837),
-                            StartingPower = 35m
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 31m,
+                            Name = "Deadpool",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6633),
+                            StartingPower = 31m
                         },
                         new
                         {
-                            Id = new Guid("72d05fb9-9a9a-4679-85e5-6947a42a7237"),
-                            Ability = "Defender",
-                            ApplicationUserId = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
-                            CurrentPower = 32m,
-                            Name = "Pheonix",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8848),
-                            StartingPower = 32m
-                        },
-                        new
-                        {
-                            Id = new Guid("5971e187-2092-4e7e-b41f-5088d90b4b5a"),
+                            Id = new Guid("6a9750a5-75b9-41e0-a905-8321cee7c6af"),
                             Ability = "Attacker",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 44m,
-                            Name = "Spider-Man",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8857),
-                            StartingPower = 44m
-                        },
-                        new
-                        {
-                            Id = new Guid("16c4ae8c-7ac0-44b4-a14c-3702bb9cef26"),
-                            Ability = "Defender",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 43m,
-                            Name = "The Punisher",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8864),
-                            StartingPower = 43m
-                        },
-                        new
-                        {
-                            Id = new Guid("4a1315b3-5b82-4ff5-8d5c-78376274a024"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 46m,
-                            Name = "The Hulk",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8872),
-                            StartingPower = 46m
-                        },
-                        new
-                        {
-                            Id = new Guid("9e38dcaf-6f3d-425f-af2b-9dde72d3d684"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 45m,
-                            Name = "Wolverine",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8879),
-                            StartingPower = 45m
-                        },
-                        new
-                        {
-                            Id = new Guid("b33596a1-d057-45db-8d05-351b709a3dd8"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 50m,
-                            Name = "Ant-Man",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8887),
-                            StartingPower = 50m
-                        },
-                        new
-                        {
-                            Id = new Guid("cf1d1642-d725-47a1-bcf9-8101f6ee4606"),
-                            Ability = "Defender",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 33m,
-                            Name = "Black Panther",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8897),
-                            StartingPower = 33m
-                        },
-                        new
-                        {
-                            Id = new Guid("f1500394-f6e9-48ec-8966-f02129a6f736"),
-                            Ability = "Defender",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 36m,
-                            Name = "Venom",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8905),
-                            StartingPower = 36m
-                        },
-                        new
-                        {
-                            Id = new Guid("26f81fbd-3de8-4a95-aabf-4d555230e1ee"),
-                            Ability = "Defender",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 30m,
-                            Name = "Star Lord",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8914),
-                            StartingPower = 30m
-                        },
-                        new
-                        {
-                            Id = new Guid("9d09fe7c-5efa-4100-ab4c-825a9ae058a9"),
-                            Ability = "Defender",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 48m,
-                            Name = "Super-Man",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8921),
-                            StartingPower = 48m
-                        },
-                        new
-                        {
-                            Id = new Guid("583b8c19-d2f4-4b5a-a5c3-4237a43e19a8"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
-                            CurrentPower = 35m,
-                            Name = "Bat-Man",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8958),
-                            StartingPower = 35m
-                        },
-                        new
-                        {
-                            Id = new Guid("c74ea23f-8d15-43e8-bee5-0eafa8e176d2"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
                             CurrentPower = 42m,
-                            Name = "The Joker",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8967),
+                            Name = "Thanos",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6645),
                             StartingPower = 42m
                         },
                         new
                         {
-                            Id = new Guid("0b4d29d1-b3e4-4872-8f50-8c57b0de7f15"),
+                            Id = new Guid("208ad836-e216-45f0-8501-2e53f5286d2e"),
                             Ability = "Attacker",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 32m,
+                            Name = "Iron-Man",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6656),
+                            StartingPower = 32m
+                        },
+                        new
+                        {
+                            Id = new Guid("215ba930-e057-43fa-aa0d-b83cc664eaa2"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 41m,
+                            Name = "Captain America",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6666),
+                            StartingPower = 41m
+                        },
+                        new
+                        {
+                            Id = new Guid("cdaf7f80-4d22-4e01-8640-7a2c4358a17c"),
+                            Ability = "Defender",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 38m,
+                            Name = "Thor",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6675),
+                            StartingPower = 38m
+                        },
+                        new
+                        {
+                            Id = new Guid("0a3e8b52-e3be-4816-a61f-641b277ebab2"),
+                            Ability = "Defender",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 41m,
+                            Name = "Black Widow",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6683),
+                            StartingPower = 41m
+                        },
+                        new
+                        {
+                            Id = new Guid("19b1f271-6042-4a10-9ad8-d42f0c63964c"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
+                            CurrentPower = 38m,
+                            Name = "Scarlet Witch",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6745),
+                            StartingPower = 38m
+                        },
+                        new
+                        {
+                            Id = new Guid("93ac9611-f4af-4d50-91ae-23d49365af55"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
                             CurrentPower = 35m,
-                            Name = "Bane",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8975),
+                            Name = "Captain Marvel",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6757),
                             StartingPower = 35m
                         },
                         new
                         {
-                            Id = new Guid("fac2a098-7438-4778-819d-7109d81abacd"),
+                            Id = new Guid("006efc8c-c0e0-4faa-88a4-3e12f43f5398"),
                             Ability = "Defender",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
-                            CurrentPower = 36m,
-                            Name = "Wonder Woman",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8982),
-                            StartingPower = 36m
-                        },
-                        new
-                        {
-                            Id = new Guid("5b6c9bc5-0e1d-41b6-99c4-4ba6f6c6f22f"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
-                            CurrentPower = 50m,
-                            Name = "Adam Warlock",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8991),
-                            StartingPower = 50m
-                        },
-                        new
-                        {
-                            Id = new Guid("c690b45c-93a6-43f5-972b-e2c242fc011e"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
-                            CurrentPower = 40m,
-                            Name = "Loki",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(8999),
-                            StartingPower = 40m
-                        },
-                        new
-                        {
-                            Id = new Guid("364e91be-f233-4690-877a-7a0382f703cf"),
-                            Ability = "Defender",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
-                            CurrentPower = 33m,
-                            Name = "Hela",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(9006),
-                            StartingPower = 33m
-                        },
-                        new
-                        {
-                            Id = new Guid("511a0da2-f6db-4cce-8c70-71a36bd61748"),
-                            Ability = "Attacker",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            ApplicationUserId = "690f8f27-48ce-439c-b9d8-d7905ae16028",
                             CurrentPower = 43m,
-                            Name = "She-Hulk",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(9013),
+                            Name = "Pheonix",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6765),
                             StartingPower = 43m
                         },
                         new
                         {
-                            Id = new Guid("6b6f40bd-67c9-43f7-91ed-745c0bea01c6"),
-                            Ability = "Defender",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
-                            CurrentPower = 45m,
-                            Name = "Dr. Doom",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(9021),
-                            StartingPower = 45m
-                        },
-                        new
-                        {
-                            Id = new Guid("ed35fa6a-8763-45ed-8579-9907c5c6a0a0"),
-                            Ability = "Defender",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            Id = new Guid("d288a1e5-5f2e-4c97-a399-4ce2c98c97f6"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
                             CurrentPower = 40m,
-                            Name = "Bat-Girl",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(9028),
+                            Name = "Spider-Man",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6775),
                             StartingPower = 40m
                         },
                         new
                         {
-                            Id = new Guid("17cca59e-e2d7-4f53-ae8d-952297151463"),
-                            Ability = "Defender",
-                            ApplicationUserId = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            Id = new Guid("864d40d2-95e8-4f9d-b563-59a0b980c812"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 34m,
+                            Name = "The Punisher",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6782),
+                            StartingPower = 34m
+                        },
+                        new
+                        {
+                            Id = new Guid("519ced22-4303-473d-8293-68308b8e6ee4"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
                             CurrentPower = 50m,
-                            Name = "Super-Girl",
-                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 11, 35, 312, DateTimeKind.Utc).AddTicks(9035),
+                            Name = "The Hulk",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6790),
                             StartingPower = 50m
+                        },
+                        new
+                        {
+                            Id = new Guid("017d95a3-4e67-4d07-b677-2e8250e3f7be"),
+                            Ability = "Defender",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 39m,
+                            Name = "Wolverine",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6801),
+                            StartingPower = 39m
+                        },
+                        new
+                        {
+                            Id = new Guid("e6799233-35dd-4249-a9b6-e76303df2326"),
+                            Ability = "Defender",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 34m,
+                            Name = "Ant-Man",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6809),
+                            StartingPower = 34m
+                        },
+                        new
+                        {
+                            Id = new Guid("108bddb1-a4eb-4fe8-835d-beb4706c81be"),
+                            Ability = "Defender",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 45m,
+                            Name = "Black Panther",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6817),
+                            StartingPower = 45m
+                        },
+                        new
+                        {
+                            Id = new Guid("6a724f99-c2a9-42da-959f-77ad500df838"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 40m,
+                            Name = "Venom",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6827),
+                            StartingPower = 40m
+                        },
+                        new
+                        {
+                            Id = new Guid("8d938c90-0099-42a7-add2-fa6fd7cf9003"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 43m,
+                            Name = "Star Lord",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6835),
+                            StartingPower = 43m
+                        },
+                        new
+                        {
+                            Id = new Guid("36ca83e9-054c-4db2-a7e5-5eb827292ca3"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 37m,
+                            Name = "Super-Man",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6843),
+                            StartingPower = 37m
+                        },
+                        new
+                        {
+                            Id = new Guid("ba235dcc-c254-4bc0-911f-fb3b5c0ab087"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "f2283146-4b61-491e-8002-c361c52d9082",
+                            CurrentPower = 34m,
+                            Name = "Bat-Man",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6850),
+                            StartingPower = 34m
+                        },
+                        new
+                        {
+                            Id = new Guid("b01be38a-fd61-46ec-931f-cf4de535c4cf"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 42m,
+                            Name = "The Joker",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6890),
+                            StartingPower = 42m
+                        },
+                        new
+                        {
+                            Id = new Guid("132ea55f-5b82-422c-82a1-4ed58b00d98f"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 47m,
+                            Name = "Bane",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6898),
+                            StartingPower = 47m
+                        },
+                        new
+                        {
+                            Id = new Guid("93530afb-f394-4057-9932-acd69f3eb487"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 50m,
+                            Name = "Wonder Woman",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6906),
+                            StartingPower = 50m
+                        },
+                        new
+                        {
+                            Id = new Guid("b4efd809-e821-4d42-85f7-1c85238f3198"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 43m,
+                            Name = "Adam Warlock",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6914),
+                            StartingPower = 43m
+                        },
+                        new
+                        {
+                            Id = new Guid("7598f1ef-c840-4251-8de6-52c7b9fac206"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 32m,
+                            Name = "Loki",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6922),
+                            StartingPower = 32m
+                        },
+                        new
+                        {
+                            Id = new Guid("897209e9-a2b2-4890-bb73-12f6f7392ff9"),
+                            Ability = "Attacker",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 50m,
+                            Name = "Hela",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6930),
+                            StartingPower = 50m
+                        },
+                        new
+                        {
+                            Id = new Guid("c891de5d-b0a0-4e3a-8cce-f1a03d586966"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 35m,
+                            Name = "She-Hulk",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6939),
+                            StartingPower = 35m
+                        },
+                        new
+                        {
+                            Id = new Guid("5b57b2ec-8ad8-4790-9038-50c14c795530"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 33m,
+                            Name = "Dr. Doom",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6947),
+                            StartingPower = 33m
+                        },
+                        new
+                        {
+                            Id = new Guid("1eba75e9-de78-4143-a309-e351c36d7a38"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 50m,
+                            Name = "Bat-Girl",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6957),
+                            StartingPower = 50m
+                        },
+                        new
+                        {
+                            Id = new Guid("dd95a3f3-3568-444e-b300-3491eedf9758"),
+                            Ability = "Defender",
+                            ApplicationUserId = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
+                            CurrentPower = 37m,
+                            Name = "Super-Girl",
+                            StartedTrainingAt = new DateTime(2022, 3, 8, 20, 31, 10, 398, DateTimeKind.Utc).AddTicks(6965),
+                            StartingPower = 37m
                         });
                 });
 
@@ -381,303 +381,303 @@ namespace HeroesApi.Migrations
                     b.HasData(
                         new
                         {
-                            HeroId = new Guid("1f9f1c5b-a8f6-4f3c-bda9-b526db09bf65"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("1f9f1c5b-a8f6-4f3c-bda9-b526db09bf65"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("fce6821a-9198-4e86-bf05-e718f5afd204"),
+                            HeroId = new Guid("e23f4c6b-728e-43e5-b210-4b7cbc5363c6"),
                             ColorName = "Silver"
                         },
                         new
                         {
-                            HeroId = new Guid("fce6821a-9198-4e86-bf05-e718f5afd204"),
+                            HeroId = new Guid("e23f4c6b-728e-43e5-b210-4b7cbc5363c6"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("6035bd5b-bbf3-4264-b047-e1b8ec7d634d"),
+                            ColorName = "Orange"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("6035bd5b-bbf3-4264-b047-e1b8ec7d634d"),
                             ColorName = "Gold"
                         },
                         new
                         {
-                            HeroId = new Guid("6a4a57ce-dcf2-4fc8-a910-eb7d63c674f7"),
-                            ColorName = "Green"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("6a4a57ce-dcf2-4fc8-a910-eb7d63c674f7"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("519e5d81-f984-4dce-b3dd-f234ecf8f7a6"),
-                            ColorName = "Silver"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("519e5d81-f984-4dce-b3dd-f234ecf8f7a6"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("4fc3a829-b9c4-4c40-8ea4-6a4556731657"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("4fc3a829-b9c4-4c40-8ea4-6a4556731657"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("6bf34c4c-bc58-48cc-a88b-77c054a5f16d"),
-                            ColorName = "Pink"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("6bf34c4c-bc58-48cc-a88b-77c054a5f16d"),
-                            ColorName = "Silver"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("0515d54c-6203-401b-8688-215eabe8c97e"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("0515d54c-6203-401b-8688-215eabe8c97e"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("162ec52a-7fa0-4479-9743-313fb078bfd5"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("162ec52a-7fa0-4479-9743-313fb078bfd5"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("e77f19b9-960d-4e8d-aac7-f4fc84c75d7c"),
-                            ColorName = "Green"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("e77f19b9-960d-4e8d-aac7-f4fc84c75d7c"),
-                            ColorName = "Silver"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("72d05fb9-9a9a-4679-85e5-6947a42a7237"),
-                            ColorName = "Purple"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("72d05fb9-9a9a-4679-85e5-6947a42a7237"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("5971e187-2092-4e7e-b41f-5088d90b4b5a"),
-                            ColorName = "Green"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("5971e187-2092-4e7e-b41f-5088d90b4b5a"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("16c4ae8c-7ac0-44b4-a14c-3702bb9cef26"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("16c4ae8c-7ac0-44b4-a14c-3702bb9cef26"),
-                            ColorName = "Pink"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("4a1315b3-5b82-4ff5-8d5c-78376274a024"),
+                            HeroId = new Guid("6a9750a5-75b9-41e0-a905-8321cee7c6af"),
                             ColorName = "Blue"
                         },
                         new
                         {
-                            HeroId = new Guid("4a1315b3-5b82-4ff5-8d5c-78376274a024"),
-                            ColorName = "Brown"
+                            HeroId = new Guid("6a9750a5-75b9-41e0-a905-8321cee7c6af"),
+                            ColorName = "White"
                         },
                         new
                         {
-                            HeroId = new Guid("9e38dcaf-6f3d-425f-af2b-9dde72d3d684"),
-                            ColorName = "Purple"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("9e38dcaf-6f3d-425f-af2b-9dde72d3d684"),
-                            ColorName = "Pink"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("b33596a1-d057-45db-8d05-351b709a3dd8"),
-                            ColorName = "Gold"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("b33596a1-d057-45db-8d05-351b709a3dd8"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("cf1d1642-d725-47a1-bcf9-8101f6ee4606"),
+                            HeroId = new Guid("208ad836-e216-45f0-8501-2e53f5286d2e"),
                             ColorName = "Silver"
                         },
                         new
                         {
-                            HeroId = new Guid("cf1d1642-d725-47a1-bcf9-8101f6ee4606"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("f1500394-f6e9-48ec-8966-f02129a6f736"),
-                            ColorName = "Yellow"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("f1500394-f6e9-48ec-8966-f02129a6f736"),
+                            HeroId = new Guid("208ad836-e216-45f0-8501-2e53f5286d2e"),
                             ColorName = "Purple"
                         },
                         new
                         {
-                            HeroId = new Guid("26f81fbd-3de8-4a95-aabf-4d555230e1ee"),
-                            ColorName = "Brown"
+                            HeroId = new Guid("215ba930-e057-43fa-aa0d-b83cc664eaa2"),
+                            ColorName = "Silver"
                         },
                         new
                         {
-                            HeroId = new Guid("26f81fbd-3de8-4a95-aabf-4d555230e1ee"),
-                            ColorName = "Green"
+                            HeroId = new Guid("215ba930-e057-43fa-aa0d-b83cc664eaa2"),
+                            ColorName = "Gold"
                         },
                         new
                         {
-                            HeroId = new Guid("9d09fe7c-5efa-4100-ab4c-825a9ae058a9"),
+                            HeroId = new Guid("cdaf7f80-4d22-4e01-8640-7a2c4358a17c"),
                             ColorName = "Black"
                         },
                         new
                         {
-                            HeroId = new Guid("9d09fe7c-5efa-4100-ab4c-825a9ae058a9"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("583b8c19-d2f4-4b5a-a5c3-4237a43e19a8"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("583b8c19-d2f4-4b5a-a5c3-4237a43e19a8"),
-                            ColorName = "Blue"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("c74ea23f-8d15-43e8-bee5-0eafa8e176d2"),
-                            ColorName = "Purple"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("c74ea23f-8d15-43e8-bee5-0eafa8e176d2"),
-                            ColorName = "Yellow"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("0b4d29d1-b3e4-4872-8f50-8c57b0de7f15"),
-                            ColorName = "Pink"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("0b4d29d1-b3e4-4872-8f50-8c57b0de7f15"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("fac2a098-7438-4778-819d-7109d81abacd"),
-                            ColorName = "Blue"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("fac2a098-7438-4778-819d-7109d81abacd"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("5b6c9bc5-0e1d-41b6-99c4-4ba6f6c6f22f"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("5b6c9bc5-0e1d-41b6-99c4-4ba6f6c6f22f"),
-                            ColorName = "Brown"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("c690b45c-93a6-43f5-972b-e2c242fc011e"),
-                            ColorName = "Green"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("c690b45c-93a6-43f5-972b-e2c242fc011e"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("364e91be-f233-4690-877a-7a0382f703cf"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("364e91be-f233-4690-877a-7a0382f703cf"),
-                            ColorName = "Red"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("511a0da2-f6db-4cce-8c70-71a36bd61748"),
-                            ColorName = "White"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("511a0da2-f6db-4cce-8c70-71a36bd61748"),
-                            ColorName = "Orange"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("6b6f40bd-67c9-43f7-91ed-745c0bea01c6"),
+                            HeroId = new Guid("cdaf7f80-4d22-4e01-8640-7a2c4358a17c"),
                             ColorName = "Silver"
                         },
                         new
                         {
-                            HeroId = new Guid("6b6f40bd-67c9-43f7-91ed-745c0bea01c6"),
-                            ColorName = "Purple"
+                            HeroId = new Guid("0a3e8b52-e3be-4816-a61f-641b277ebab2"),
+                            ColorName = "Yellow"
                         },
                         new
                         {
-                            HeroId = new Guid("ed35fa6a-8763-45ed-8579-9907c5c6a0a0"),
-                            ColorName = "Pink"
-                        },
-                        new
-                        {
-                            HeroId = new Guid("ed35fa6a-8763-45ed-8579-9907c5c6a0a0"),
+                            HeroId = new Guid("0a3e8b52-e3be-4816-a61f-641b277ebab2"),
                             ColorName = "Blue"
                         },
                         new
                         {
-                            HeroId = new Guid("17cca59e-e2d7-4f53-ae8d-952297151463"),
+                            HeroId = new Guid("19b1f271-6042-4a10-9ad8-d42f0c63964c"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("19b1f271-6042-4a10-9ad8-d42f0c63964c"),
+                            ColorName = "Blue"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("93ac9611-f4af-4d50-91ae-23d49365af55"),
+                            ColorName = "Gold"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("93ac9611-f4af-4d50-91ae-23d49365af55"),
+                            ColorName = "Pink"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("006efc8c-c0e0-4faa-88a4-3e12f43f5398"),
+                            ColorName = "Silver"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("006efc8c-c0e0-4faa-88a4-3e12f43f5398"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("d288a1e5-5f2e-4c97-a399-4ce2c98c97f6"),
                             ColorName = "Brown"
                         },
                         new
                         {
-                            HeroId = new Guid("17cca59e-e2d7-4f53-ae8d-952297151463"),
+                            HeroId = new Guid("d288a1e5-5f2e-4c97-a399-4ce2c98c97f6"),
                             ColorName = "Pink"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("864d40d2-95e8-4f9d-b563-59a0b980c812"),
+                            ColorName = "Brown"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("864d40d2-95e8-4f9d-b563-59a0b980c812"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("519ced22-4303-473d-8293-68308b8e6ee4"),
+                            ColorName = "Black"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("519ced22-4303-473d-8293-68308b8e6ee4"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("017d95a3-4e67-4d07-b677-2e8250e3f7be"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("017d95a3-4e67-4d07-b677-2e8250e3f7be"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("e6799233-35dd-4249-a9b6-e76303df2326"),
+                            ColorName = "Black"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("e6799233-35dd-4249-a9b6-e76303df2326"),
+                            ColorName = "Gold"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("108bddb1-a4eb-4fe8-835d-beb4706c81be"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("108bddb1-a4eb-4fe8-835d-beb4706c81be"),
+                            ColorName = "Blue"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("6a724f99-c2a9-42da-959f-77ad500df838"),
+                            ColorName = "Blue"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("6a724f99-c2a9-42da-959f-77ad500df838"),
+                            ColorName = "Gold"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("8d938c90-0099-42a7-add2-fa6fd7cf9003"),
+                            ColorName = "Black"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("8d938c90-0099-42a7-add2-fa6fd7cf9003"),
+                            ColorName = "Silver"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("36ca83e9-054c-4db2-a7e5-5eb827292ca3"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("36ca83e9-054c-4db2-a7e5-5eb827292ca3"),
+                            ColorName = "Brown"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("ba235dcc-c254-4bc0-911f-fb3b5c0ab087"),
+                            ColorName = "Blue"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("ba235dcc-c254-4bc0-911f-fb3b5c0ab087"),
+                            ColorName = "Brown"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("b01be38a-fd61-46ec-931f-cf4de535c4cf"),
+                            ColorName = "Orange"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("b01be38a-fd61-46ec-931f-cf4de535c4cf"),
+                            ColorName = "Brown"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("132ea55f-5b82-422c-82a1-4ed58b00d98f"),
+                            ColorName = "Orange"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("132ea55f-5b82-422c-82a1-4ed58b00d98f"),
+                            ColorName = "Blue"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("93530afb-f394-4057-9932-acd69f3eb487"),
+                            ColorName = "Black"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("93530afb-f394-4057-9932-acd69f3eb487"),
+                            ColorName = "White"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("b4efd809-e821-4d42-85f7-1c85238f3198"),
+                            ColorName = "Brown"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("b4efd809-e821-4d42-85f7-1c85238f3198"),
+                            ColorName = "Yellow"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("7598f1ef-c840-4251-8de6-52c7b9fac206"),
+                            ColorName = "Yellow"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("7598f1ef-c840-4251-8de6-52c7b9fac206"),
+                            ColorName = "Orange"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("897209e9-a2b2-4890-bb73-12f6f7392ff9"),
+                            ColorName = "Orange"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("897209e9-a2b2-4890-bb73-12f6f7392ff9"),
+                            ColorName = "Green"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("c891de5d-b0a0-4e3a-8cce-f1a03d586966"),
+                            ColorName = "Silver"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("c891de5d-b0a0-4e3a-8cce-f1a03d586966"),
+                            ColorName = "Purple"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("5b57b2ec-8ad8-4790-9038-50c14c795530"),
+                            ColorName = "Pink"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("5b57b2ec-8ad8-4790-9038-50c14c795530"),
+                            ColorName = "Gold"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("1eba75e9-de78-4143-a309-e351c36d7a38"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("1eba75e9-de78-4143-a309-e351c36d7a38"),
+                            ColorName = "Black"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("dd95a3f3-3568-444e-b300-3491eedf9758"),
+                            ColorName = "Red"
+                        },
+                        new
+                        {
+                            HeroId = new Guid("dd95a3f3-3568-444e-b300-3491eedf9758"),
+                            ColorName = "Black"
                         });
                 });
 
@@ -771,9 +771,9 @@ namespace HeroesApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "12ebb199-20ce-4eaf-b39c-7d7492877af6",
+                            Id = "690f8f27-48ce-439c-b9d8-d7905ae16028",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d1bdcf4d-b884-499f-95cf-f62b1aa16992",
+                            ConcurrencyStamp = "abaffbcc-2fec-4801-97e2-f473d12a14d6",
                             Email = "user1@example.com",
                             EmailConfirmed = false,
                             FirstName = "Moshe",
@@ -781,17 +781,17 @@ namespace HeroesApi.Migrations
                             LockoutEnabled = true,
                             NormalizedEmail = "USER1@EXAMPLE.COM",
                             NormalizedUserName = "USER1@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEOcFTsgZYz8/P7PlFt/dW+3X6JLD0GDTcyXNM79ZtXUC7yH6vTr2m8+go8ONii3mCg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEINEQLCPRroTwxTYIL0YJoxpaGMnTZUHWMfqvnQDbwRMbWGrzkSMueGRD9TbwDAgxQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "6a721693-0275-448e-abd1-1d91c0661962",
+                            SecurityStamp = "447bc8f5-75f9-4117-be3e-27f858358480",
                             TwoFactorEnabled = false,
                             UserName = "user1@example.com"
                         },
                         new
                         {
-                            Id = "b4dd9b01-acdb-4d17-855a-aeef45bb0892",
+                            Id = "f2283146-4b61-491e-8002-c361c52d9082",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0bf91b64-4aa9-4964-ba81-a1c3914bca51",
+                            ConcurrencyStamp = "c00f76b8-5a94-444c-a323-b99e5450c6da",
                             Email = "user2@example.com",
                             EmailConfirmed = false,
                             FirstName = "Keren",
@@ -799,17 +799,17 @@ namespace HeroesApi.Migrations
                             LockoutEnabled = true,
                             NormalizedEmail = "USER2@EXAMPLE.COM",
                             NormalizedUserName = "USER2@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEMo1s3Tb+3J5OhWvVSOuRWqYiYLGJ+s7tmtaGlc8UQ7pGARbF7VUN1GkX5mhOMx1rA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEIXUMnD0Zn3yv7SBJe6q2G4JaL7PtHfiRx0xRK6uJXIQ4LxJsE8ayz9dNVwgV1Z9pQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f6670aaa-ff05-4427-958f-ffe1b08bb152",
+                            SecurityStamp = "de7a32fe-597f-47b0-97d2-cee361639adb",
                             TwoFactorEnabled = false,
                             UserName = "user2@example.com"
                         },
                         new
                         {
-                            Id = "62786193-15ce-4c5b-be9e-dff0e17fb15b",
+                            Id = "aaf0d392-1d51-4bc8-a308-58fe3376497d",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "5d90166e-f9b0-4e21-86d5-b635b452fcfc",
+                            ConcurrencyStamp = "c2698ecd-f700-44d6-ab1b-4c2a46d12813",
                             Email = "user3@example.com",
                             EmailConfirmed = false,
                             FirstName = "Sholomo",
@@ -817,9 +817,9 @@ namespace HeroesApi.Migrations
                             LockoutEnabled = true,
                             NormalizedEmail = "USER3@EXAMPLE.COM",
                             NormalizedUserName = "USER3@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEL+JgMo2bF4pBibprCKbRwYx/HNA1sp2Q9NI0N9QpjcK5x8VjAp5Jv1E8OsXgtb5Sw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMOrwUYqqVYD+n4Nk2KK68jiPLulPX5urPuZ1WELClB7qSxkn9ydOI9Xai10wc9gMA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "d5c9bab0-1766-4b0b-baac-311ea35ce1c5",
+                            SecurityStamp = "c457909e-ecc6-4ce0-b22b-74be7ae2600f",
                             TwoFactorEnabled = false,
                             UserName = "user3@example.com"
                         });

@@ -43,23 +43,23 @@ namespace HeroesApi.Data
                 }
             };
 
-            _heroNames = new List<string>();
-            _heroNames.AddRange(new string[]
+            _heroNames = new List<string>()
             {
                 "Dr. Strange", "Deadpool", "Thanos", "Iron-Man", "Captain America", "Thor", "Black Widow",
                 "Scarlet Witch", "Captain Marvel", "Pheonix", "Spider-Man", "The Punisher", "The Hulk",
                 "Wolverine", "Ant-Man", "Black Panther", "Venom", "Star Lord", "Super-Man", "Bat-Man",
                 "The Joker", "Bane", "Wonder Woman", "Adam Warlock", "Loki", "Hela", "She-Hulk", "Dr. Doom",
                 "Bat-Girl", "Super-Girl"
-            });
+            };
 
-            _colors = new List<string>();
-            _colors.AddRange(new string[]
-            { "White", "Black", "Yellow", "Green", "Blue", "Purple", "Red", "Gold", "Brown", "Orange", "Silver", "Pink",});
+            _colors = new List<string>()
+            {
+                "White", "Black", "Yellow", "Green", "Blue", "Purple", "Red", "Gold", "Brown", "Orange", "Silver", "Pink",
+            };
 
-            _abilities = new List<string>();
-            _abilities.AddRange(new string[] { "Attacker", "Defender" });
+            _abilities = new List<string>() { "Attacker", "Defender" };
         }
+
         public static void SeedUsers(ModelBuilder builder)
         {
             var hasher = new PasswordHasher<ApplicationUser>();
@@ -91,27 +91,7 @@ namespace HeroesApi.Data
                 var heroId = Guid.NewGuid();
                 var power = Utils.GetRandomNumberInRange(30, 50);
                 var ability = _abilities[Utils.GetRandomNumberInRange(0, _abilities.Count - 1)];
-
-                var firstColor = _colors[Utils.GetRandomNumberInRange(0, _colors.Count - 1)];
-                var secondColor = "";
-
-                while (firstColor == secondColor || secondColor == "")
-                    secondColor = _colors[Utils.GetRandomNumberInRange(0, _colors.Count - 1)];
-
-                var suitColors = new HeroSuitColor[]
-                {
-                    new HeroSuitColor
-                    {
-                        ColorName = firstColor,
-                        HeroId = heroId
-                    },
-                    new HeroSuitColor
-                    {
-                        ColorName= secondColor,
-                        HeroId=heroId,
-                    }
-                };
-
+                var suitColors = GetSuitColorsByHeroId(heroId);
                 suitColorsList.AddRange(suitColors);
 
                 heroes.Add(new Hero
@@ -128,6 +108,29 @@ namespace HeroesApi.Data
 
             builder.Entity<HeroSuitColor>().HasData(suitColorsList);
             builder.Entity<Hero>().HasData(heroes);
+        }
+
+        private static HeroSuitColor[] GetSuitColorsByHeroId(Guid heroId)
+        {
+            var firstColor = _colors[Utils.GetRandomNumberInRange(0, _colors.Count - 1)];
+            var secondColor = "";
+
+            while (firstColor == secondColor || secondColor == "")
+                secondColor = _colors[Utils.GetRandomNumberInRange(0, _colors.Count - 1)];
+
+            return new HeroSuitColor[]
+            {
+                new HeroSuitColor
+                {
+                    ColorName = firstColor,
+                    HeroId = heroId
+                },
+                new HeroSuitColor
+                {
+                    ColorName= secondColor,
+                    HeroId=heroId,
+                }
+            };
         }
     }
 }
