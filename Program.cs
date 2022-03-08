@@ -37,7 +37,6 @@ try
     builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     {
         options.User.RequireUniqueEmail = true;
-        options.SignIn.RequireConfirmedAccount = true;
         options.Password.RequiredLength = 8;
         options.Password.RequireDigit = true;
         options.Password.RequireUppercase = true;

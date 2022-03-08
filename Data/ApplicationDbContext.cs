@@ -36,6 +36,9 @@ namespace HeroesApi.Data
             builder.Entity<HeroTraining>()
                 .HasKey(heroTraining => new { heroTraining.HeroId, heroTraining.TrainedAt });
 
+            DataSeed.SeedUsers(builder);
+            DataSeed.SeedHeroes(builder);
+
             base.OnModelCreating(builder);
         }
     }

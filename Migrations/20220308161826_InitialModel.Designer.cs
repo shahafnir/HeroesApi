@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HeroesApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220306144002_InitialModel")]
+    [Migration("20220308161826_InitialModel")]
     partial class InitialModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
