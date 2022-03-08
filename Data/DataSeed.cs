@@ -62,10 +62,13 @@ namespace HeroesApi.Data
         }
         public static void SeedUsers(ModelBuilder builder)
         {
+            var hasher = new PasswordHasher<ApplicationUser>();
             _users.ForEach(user =>
             {
-                PasswordHasher<ApplicationUser> passwordHasher = new PasswordHasher<ApplicationUser>();
-                user.PasswordHash = passwordHasher.HashPassword(user, "Aa12345!");
+                user.NormalizedUserName = user.UserName.ToUpper();
+                user.NormalizedEmail = user.Email.ToUpper();
+                user.LockoutEnabled = true;
+                user.PasswordHash = hasher.HashPassword(user, "Aa12345!");
             });
 
             builder.Entity<ApplicationUser>().HasData(_users);

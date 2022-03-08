@@ -16,7 +16,7 @@ namespace HeroesApi.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
+        protected override async void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Hero>()
                    .Property(h => h.StartingPower)
